@@ -1,0 +1,51 @@
+html body { background: #0A0F24; }
+
+.tabla-asientos {
+    color: #eee;
+    margin-bottom: 30px;
+    width: 100%;                  /* que se adapte al contenedor */
+    border-radius: 15px;          /* bordes redondeados */
+    border-collapse: collapse;    /* elimina cualquier separación entre celdas */
+    overflow: hidden;              /* asegura que las celdas no sobresalgan */
+    background: transparent;       /* fondo transparente */
+}
+
+
+.curva {
+  width: 100%;
+  height: 50px;               /* altura de la curva */
+  background: transparent;
+  border-top: 6px solid rgb(71, 71, 71); /* color y grosor de la línea */
+  border-radius:50%/100px;   /* curva en el centro */
+  margin: 0;
+}
+
+.tabla-asientos td,
+.tabla-asientos th {
+    padding: 8px;
+    border: none;                 /* elimina bordes internos */
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.tabla-asientos th {
+    background-color: #233152;
+    color: #fff;
+}
+
+.asientos, .nombre { background-color: #1B233F; }
+
+#pago { background-color: #186A9C; }
+#nopago { background-color: #8C2235;}
+#pendiente-confirmado { background-color: #A07C3D; }
+
+.asientos-asignados {
+    width: 95%;
+    color: #fff;                  /* color del texto */
+    font-weight: bold;            /* texto en negrita */
+}
+
+.persona{
+    background-color: #1E3A8A !important;
+    border: 0.5px solid #2a1640 !important;
+}
