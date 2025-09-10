@@ -49,3 +49,14 @@ html body { background: #0A0F24; }
     background-color: #1E3A8A !important;
     border: 0.5px solid #2a1640 !important;
 }
+
+.modal-header, .modal-footer, .modal-body {
+    background-color: #1B233F !important;
+    color: #fff;
+}
+
+.imagen-asiento {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
